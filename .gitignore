@@ -1,0 +1,17 @@
+# Python/conda
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large ML/Whisper weights
+*.pt
+*.bin
+models/
+
+# Downloaded audio (optional to skip)
+data/**/*.wav
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+

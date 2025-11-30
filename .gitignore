@@ -1,0 +1,17 @@
+# Python/conda
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large ML/Whisper weights
+*.pt
+*.bin
+models/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+.ipynb_checkpoints/   # (once is enough but fine if repeated without glob)
+
+# Ignore downloaded data entirely
+data/
